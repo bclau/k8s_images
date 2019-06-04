@@ -256,7 +256,7 @@ $Images = @(
 
     DockerImage -Name "agnhost" -Versions "1.0" -ImageBase "busybox"
     DockerImage -Name "cassandra" -Versions "v13" -ImageBase "java"
-    DockerImage -Name "dnsutils" -ImageBase "busybox" -Versions "1.1"
+    DockerImage -Name "dnsutils" -ImageBase "busybox" -Versions "1.2"
     DockerImage -Name "echoserver" -ImageBase "busybox" -Versions "2.2"
     DockerImage -Name "entrypoint-tester"
     DockerImage -Name "etcd" -Versions "v3.3.10", "3.3.10"
@@ -266,7 +266,7 @@ $Images = @(
     DockerImage -Name "hazelcast-kubernetes" -Versions "3.8_1" -ImageBase "java"
     DockerImage -Name "hostexec" -Versions "1.1" -ImageBase "busybox"
     DockerImage -Name "iperf" -ImageBase "busybox"
-    DockerImage -Name "jessie-dnsutils" -ImageBase "busybox"
+    DockerImage -Name "jessie-dnsutils" -ImageBase "busybox"  -Versions "1.1"
     DockerImage -Name "kitten" -ImageBase "test-webserver"
     DockerImage -Name "liveness" -Versions "1.1"
     DockerImage -Name "logs-generator"
